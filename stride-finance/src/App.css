@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* App.css */
+
+.Landing {
+  background-image: url("images/landing-page.jpg");
+  height: 70vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Landing h1 {
+  max-width: 80%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.long-button,
+.short-buttons button {
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.long-button {
+  width: 60%; /* Adjust the width of the long button */
+  margin-bottom: 10px; /* Add margin between long and short buttons */
+}
+
+.short-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for short buttons */
+  grid-gap: 10px;
+}
+
+.short-buttons button {
+  width: 100%; /* Make short buttons full width within their container */
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.testimonial {
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  padding: 30px;
+}
+
+.card-t {
+  width: 30%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-t h2 {
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

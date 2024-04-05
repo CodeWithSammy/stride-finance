@@ -1,0 +1,19 @@
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* src/styles/tailwind.css */
+@font-face {
+    font-family: 'Garet';
+    src: url('./fonts/garet.woff2') format('woff2'),
+         url('./fonts/garet.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Garet', sans-serif;
+    /* ...other styles... */
+  }
+  
