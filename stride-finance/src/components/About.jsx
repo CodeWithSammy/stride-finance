@@ -10,7 +10,7 @@ const AboutUsPage = () => {
       
       <section className="company-info">
         <h2>Stride Real Estate</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu libero ac lorem fringilla tristique. Sed non arcu auctor, vestibulum elit eu, consectetur risus. Aliquam vitae nisl sit amet arcu aliquam malesuada vel sed lorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu libero ac lorem fringilla tristique. Sed non arcu auctor, vestibulum elit eu,  nisl sit amet arcu aliquam malesuada vel sed lorem.</p>
         <p>Suspendisse potenti. Nam nec justo magna. Integer eget ex at purus vestibulum lobortis. Nullam sodales magna sit amet purus eleifend posuere. Vestibulum sodales euismod dolor vel consectetur. Curabitur laoreet placerat augue a vestibulum.</p>
       </section>
       
